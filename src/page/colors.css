@@ -1,20 +1,20 @@
 /* Variables para cada paleta */
 :root {
-  --paleta-1-fondo: #a0c7eb;
-  --paleta-1-texto: #411717;
-  --paleta-1-destacado: #7a0a0a;
-  --paleta-1-contenedor: #6e92df;
-  --paleta-1-boton: #134758;
-  --paleta-1-hover: #4d69ac;
-  --paleta-1-acento: #575653;
+  --paleta-1-fondo: #f5f5f5;
+  --paleta-1-texto: #252525;
+  --paleta-1-destacado: #454545;
+  --paleta-1-contenedor: #c5c5c5;
+  --paleta-1-boton: #858585;
+  --paleta-1-hover: #656565;
+  --paleta-1-acento: #555555;
 
-  --paleta-2-fondo: #132D46;
-  --paleta-2-texto: #FFF;
-  --paleta-2-destacado: #959595;
-  --paleta-2-contenedor: #191E29;
-  --paleta-2-boton: #007EA7;
-  --paleta-2-hover: #474E5E;
-  --paleta-2-acento: #B2AA8E;
+  --paleta-2-fondo: #252525;
+  --paleta-2-texto: #f5f5f5;
+  --paleta-2-destacado: #c5c5c5;
+  --paleta-2-contenedor: #555555;
+  --paleta-2-boton: #959595;
+  --paleta-2-hover: #b5b5b5;
+  --paleta-2-acento: #a5a5a5;
 }
 
 .light {
