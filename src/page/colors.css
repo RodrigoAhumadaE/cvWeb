@@ -1,0 +1,38 @@
+/* Variables para cada paleta */
+:root {
+  --paleta-1-fondo: #a0c7eb;
+  --paleta-1-texto: #411717;
+  --paleta-1-destacado: #7a0a0a;
+  --paleta-1-contenedor: #6e92df;
+  --paleta-1-boton: #134758;
+  --paleta-1-hover: #4d69ac;
+  --paleta-1-acento: #575653;
+
+  --paleta-2-fondo: #132D46;
+  --paleta-2-texto: #FFF;
+  --paleta-2-destacado: #959595;
+  --paleta-2-contenedor: #191E29;
+  --paleta-2-boton: #007EA7;
+  --paleta-2-hover: #474E5E;
+  --paleta-2-acento: #B2AA8E;
+}
+
+.light {
+  --fondo: var(--paleta-1-fondo);
+  --texto: var(--paleta-1-texto);
+  --destacado: var(--paleta-1-destacado);
+  --contenedor: var(--paleta-1-contenedor);
+  --boton: var(--paleta-1-boton);
+  --hover: var(--paleta-1-hover);
+  --acento: var(--paleta-1-acento);
+}
+
+.dark {
+  --fondo: var(--paleta-2-fondo);
+  --texto: var(--paleta-2-texto);
+  --destacado: var(--paleta-2-destacado);
+  --contenedor: var(--paleta-2-contenedor);
+  --boton: var(--paleta-2-boton);
+  --hover: var(--paleta-2-hover);
+  --acento: var(--paleta-2-acento);
+}

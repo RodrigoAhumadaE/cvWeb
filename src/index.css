@@ -1,0 +1,28 @@
+/* reset css */
+*{
+  box-sizing: border-box;   /* incluye padding y border en el calculo del tamaño*/
+  /* position: relative;        establece la posicion de todos los hijos en relacion al padre inmediato */
+  min-width: 0;             /* evita que los elementos contenidos en grid o flex salga fuera de estos */
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 50px;
+}
+
+body{
+  min-height: 90dvh;       /* body con una minima altura ajustada a la pantalla disponible */
+  background-color: var(--fondo);
+  color: var(--texto);
+  font-family: Roboto;
+}
+
+h1, h2, h3, h4{
+  text-wrap: balance;       /* evita que el título que se divide en 2 lineas deje una palabra sola en la 2da */
+}
+
+p{
+  text-wrap: pretty;        /* evita que en los parrafos la última linea tenga solo una palabra */
+}
